@@ -71,7 +71,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/x_tutorial_3_policy_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"

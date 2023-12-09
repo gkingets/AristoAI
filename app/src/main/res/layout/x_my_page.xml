@@ -23,7 +23,6 @@
         app:layout_constraintTop_toBottomOf="@id/x_my_page_header">
 
         <LinearLayout
-            android:id="@+id/x_my_page_policy_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">

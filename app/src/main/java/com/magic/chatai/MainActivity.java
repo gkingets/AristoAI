@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements x_Premium.Subscri
     Button btnStart;
     ImageView imageMyPage, imageInfo, imageExample, imageStarPlus, imageClear, imageReset, imageStarIcon, imageCampaignClear;
     LinearLayout layoutCompletion, layoutFailure, layoutRephrase, layoutCampaign;
-    TypeWriterView textAnswer;
+//    TypeWriterView textAnswer;
     CheckBox animeCheckBox;
     View view;
     ProgressBar progressBar;
@@ -80,8 +80,7 @@ public class MainActivity extends AppCompatActivity implements x_Premium.Subscri
     MaterialButtonToggleGroup toggleGroupRewrite, toggleGroupHeader;
     ChipGroup chip_group;
     Chip chip_a, chip_b, chip_c, chip_d, chip_e, chip_f, chip_g;
-    FuncFirebase funcFirebase;
-    Func func = new Func();
+
     private FirebaseAnalytics mFirebaseAnalytics;
     private FirebaseAuth mAuth;
     // x_以降
