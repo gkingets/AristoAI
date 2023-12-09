@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/x_style_radio_button_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/x_style_radio_button_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/style_row_height"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/x_style_radio_button_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/style_row_height"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/x_style_radio_button_3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/style_row_height"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/x_style_radio_button_4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/style_row_height"
+                android:text="" />
+        </RadioGroup>
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/style_row_height">-->
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/im_ny"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/white_transparent"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Standard"-->
+<!--                android:autoSizeTextType="uniform"-->
+<!--                android:autoSizeMaxTextSize="30dp"-->
+<!--                android:gravity="center"/>-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/style_row_height">-->
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/im_ny"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/white_transparent"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Business"-->
+<!--                android:autoSizeTextType="uniform"-->
+<!--                android:autoSizeMaxTextSize="30dp"-->
+<!--                android:gravity="center"/>-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/style_row_height">-->
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/im_ny"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/white_transparent"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Casual"-->
+<!--                android:autoSizeTextType="uniform"-->
+<!--                android:autoSizeMaxTextSize="30dp"-->
+<!--                android:gravity="center"/>-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/style_row_height">-->
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/im_ny"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/white_transparent"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Academic"-->
+<!--                android:autoSizeTextType="uniform"-->
+<!--                android:autoSizeMaxTextSize="30dp"-->
+<!--                android:gravity="center"/>-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/style_row_height"
+            android:layout_height="@dimen/style_row_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/im_standard"/>
+
+        <ImageView
+            android:layout_width="@dimen/style_row_height"
+            android:layout_height="@dimen/style_row_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/im_business"/>
+
+        <ImageView
+            android:layout_width="@dimen/style_row_height"
+            android:layout_height="@dimen/style_row_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/im_academic"/>
+
+        <ImageView
+            android:layout_width="@dimen/style_row_height"
+            android:layout_height="@dimen/style_row_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/im_casual"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/style_row_height"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:autoSizeMaxTextSize="30dp"
+            android:text="Standard"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/style_row_height"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:autoSizeMaxTextSize="30dp"
+            android:text="Business"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/style_row_height"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:autoSizeMaxTextSize="30dp"
+            android:text="Academic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/style_row_height"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:autoSizeMaxTextSize="30dp"
+            android:text="Casual"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

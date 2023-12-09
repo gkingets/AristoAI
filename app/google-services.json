@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "73756838993",
+    "project_id": "chatai-aac3a",
+    "storage_bucket": "chatai-aac3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73756838993:android:8cdb75e984f1b17e897c70",
+        "android_client_info": {
+          "package_name": "com.magic.chatai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73756838993-5hiu650ram78lfp4n0cshj83o23cfd8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.magic.chatai",
+            "certificate_hash": "41c9253c09044d7b61228fed635c441143781309"
+          }
+        },
+        {
+          "client_id": "73756838993-f73r2f8ga5obrunoi6rgshkgr4v0alsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz0W0cvSkqpckX-06cukFG5KCYjZC5QcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73756838993-f73r2f8ga5obrunoi6rgshkgr4v0alsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

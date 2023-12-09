@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="info_font_size">14dp</dimen>
+    <dimen name="tutorial_circle">20dp</dimen>
+    <dimen name="tutorial_circle_margin">10dp</dimen>
+    <dimen name="style_row_height">140dp</dimen>
+    <dimen name="tutorial_sample_text">20dp</dimen>
+
+</resources>

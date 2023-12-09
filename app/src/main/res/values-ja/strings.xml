@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aristo AI - 意見をくれるAI</string>
+    <string name="chip_a">Introduction</string>
+    <string name="chip_a_500">500字で要約</string>
+    <string name="chip_a_2000">2000字で要約</string>
+    <string name="chip_b">Apology</string>
+    <string name="chip_c">Thanks</string>
+    <string name="chip_d">Greeting</string>
+    <string name="chip_e">Praise</string>
+    <string name="chip_f">Inquiry</string>
+    <string name="question_hint_1">もしタイムマシンがあったら？</string>
+    <string name="character_limit">文字数</string>
+    <string name="animation">アニメーション</string>
+    <string name="start">スタート</string>
+    <string name="Feedback">コメントフォーム</string>
+    <string name="google_play_store">Google Play Store</string>
+    <string name="login_register">ログイン / 登録</string>
+    <string name="logout">ログアウト</string>
+    <string name="login">ログイン</string>
+    <string name="create_account">登録はこちらから</string>
+    <string name="new_account">新規登録</string>
+    <string name="register">登録</string>
+    <string name="login_here">ログインはこちらから</string>
+    <string name="write_question">質問を記載してください</string>
+    <string name="show_ads">広告を表示します</string>
+    <string name="YES">はい</string>
+    <string name="CANCEL">キャンセル</string>
+    <string name="sound">入力音声</string>
+    <string name="question_hint_2">具体的な目標の立て方を教えて</string>
+    <string name="question_hint_3">遅刻した時の謝罪文を書いて</string>
+    <string name="copied_to_clipboard">クリップボードに保存しました</string>
+    <string name="time_out_error">エラーが発生しました</string>
+    <string name="try_again">時間を置いて再度実行ください</string>
+    <string name="question_hint_5">鶏肉と玉ねぎを使った料理を教えて</string>
+    <string name="question_hint_4">ハリーポッターを要約して</string>
+    <string name="terms_of_service">利用規約</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="agree_to_the_terms_of_service">利用規約に同意する</string>
+    <string name="agree_to_the_privacy_policy">プライバシーポリシーに同意する</string>
+    <string name="progress_hint_1">検索できないことを聞いてください</string>
+    <string name="progress_hint_2">質問を明確にして聞いてください</string>
+    <string name="agree_checkbox">* チェックボックスに同意してください</string>
+    <string name="url_privacy_policy">https://docs.google.com/document/d/e/2PACX-1vRItA4HmWpQIS4aWOk6FvB-D9z8jkqLhNYL7PSRNpisI50owNq_BId1ChfI5D7yAkHXnjy5AjoRUrHM/pub</string>
+    <string name="url_terms_of_service">https://docs.google.com/document/d/e/2PACX-1vQxvz6kTCw62d6NTM5LawXl6bBO9PjUkAz6P3wH8FCdr3cuVPVz6H-fzLwxIUKEGe5S9-iGwSMxgtwY/pub</string>
+</resources>
